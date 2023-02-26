@@ -1,3 +1,82 @@
 p {
   color: blue;
 }
+:root {
+  --primary-text-color: #2e2f42;
+  --title-text-color: #434455;
+  --accent: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --primery-btn-color: #f4f4fd;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/*----------- ссылка кнопка------------- */
+.btn {
+  display: inline-block;
+  margin: 50px;
+  padding: 20px 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+}
+.btn-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background-color: blue;
+  vertical-align: middle;
+}
+/*--------- оформление ЛОГО WEBSTUDIO--------------*/
+.logo {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33px;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-st {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
+  /* display: flex; */
+  text-decoration: none;
+  align-items: center;
+}
